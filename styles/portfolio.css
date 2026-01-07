@@ -11,7 +11,7 @@ header{
     background-color: #fff8f3;
     padding-top: 40px;
     background: url(../images/developer.png), url(../images/header_bg.png),#fff8f3;;
-    
+
     background-position:top left , bottom right;
     background-repeat: no-repeat;
     
@@ -54,7 +54,20 @@ nav .menu a{
     align-items: center;
     cursor: pointer;
 }
-
+.section-heading{
+    max-width:827px ;
+    text-align: center;
+}
+.section-heading h2{
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.section-heading p {
+line-height: 30px;
+font-size: 18px;
+color: #757575;
+margin-bottom: 30px;
+}
 #banner {
     /* border: 1px solid red; */
     margin: 47px 38px 0 230px;
@@ -90,8 +103,32 @@ nav .menu a{
     vertical-align: middle;
 }
 
+#about{
+    padding-top: 130px;
 
+}
+ #about .about-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:#fff8f3 ;
+    padding: 131px 156px;
 
+}
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+     font-size: 20px;
+    color:#757575;
+    line-height: 30px;
+     
+} 
+.about-info .info-card h4{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 
 
